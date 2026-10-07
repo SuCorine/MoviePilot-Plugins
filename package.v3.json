@@ -1,0 +1,66 @@
+{
+  "YahahaCoverStudio": {
+    "name": "呀哈哈封面工坊",
+    "description": "全新vue前端,支持可编辑静态封面、动态方案、历史封面、Webhook 入库监控",
+    "labels": "海报,可编辑画布,封面,Emby,Jellyfin,动态",
+    "version": "3.0.0",
+    "icon": "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/icons/yahaha-cover-studio.png",
+    "author": "Corine",
+    "level": 1,
+    "history": {
+      "v3.0.0": "适配 MoviePilot V3：导入迁移到 app.sdk 稳定出口（config/events/media/services/network/plugin），事件、媒体服务器链与自有数据存储保持原有行为；索引与版本按 V3 合同重建。",
+      "v2.2.11": "修复 Jellyfin 根路径 API 请求，恢复媒体库读取、素材获取与封面上传；Docker 版已使用根路径 API。",
+      "v2.2.10": "修复 Vue 设置保存后 MoviePilot 定时任务未刷新、Episode 动态封面素材 ID 异常，并增强 Docker 定时任务校验与状态记录。",
+      "v2.2.9": "统一设置与预览标题栏按钮，修复暗色多选菜单、规则对齐和历史封面玻璃背景。",
+      "v2.2.8": "优化移动端 Impact 标题字距和行高，修复真实字体加载后的字形重叠。",
+      "v2.2.7": "修复首屏标题字体接口与插件固定标题栏挂载，确保字体刷新后立即生效。",
+      "v2.2.6": "修复应用标题字体加载与设置页固定标题栏，统一生成按钮边框样式。",
+      "v2.0.22": "增加字体字形检测与简繁适配，重构中央时光机及无重排历史展开。",
+      "v2.0.21": "优化设置导航与历史封面交互，重构时光机和媒体库堆叠展示。",
+      "v2.0.11": "修复 Docker 缓存标题与插件刷新后破图的问题。",
+      "v2.0.10": "修复双端预览素材缓存；重开页面复用素材，手动刷新才重新获取海报。",
+      "v2.0.9": "修复 Docker 版刷新成功后仍错误提示失败的问题。",
+      "v2.0.8": "优化 Emby/Jellyfin 预览海报刷新：服务端缩放、连接复用与并发下载。",
+      "v2.0.7": "修复刷新后插件预览海报破图，并统一双端刷新成功/失败提示。",
+      "v2.0.6": "修复双端封面素材缓存刷新：刷新会强制重新拉取服务器素材，清理缓存不再删除生成封面。",
+      "v2.0.5": "修复插件历史缩略图认证，优化时光机浮动操作与窄窗口导航。",
+      "v2.0.4": "精简时光机封面卡片，修复插件历史图片与浮动导航显示。",
+      "v2.0.3": "优化时光机封面展示，修复预览刷新和插件历史图片加载。",
+      "v2.0.2": "新增时光机层叠视图，修复设置导航和媒体库实时联动。",
+      "v2.0.0": "更名为呀哈哈封面工坊 / Yahaha Cover Studio，作为新版插件发布；新增 Vue 前端、可编辑布局、方案管理、历史封面、Webhook 入库监控。旧版媒体库封面生成已保留在 legacy-media-cover-generator 分支和 v1-legacy-media-cover-generator tag。"
+    },
+    "system_version": ">=3.0.0",
+    "author_url": "https://github.com/SuCorine"
+  },
+  "P115Disk": {
+    "name": "115网盘储存",
+    "description": "更快更强的115网盘存储模块。",
+    "labels": "云盘",
+    "version": "3.0.1",
+    "release": true,
+    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Frontend/refs/heads/v2/src/assets/images/misc/u115.png",
+    "author": "Corine",
+    "system_version": ">=3.0.0",
+    "level": 1,
+    "history": {
+      "v3.0.1": "修复清理缓存响应并适配 V3 存储管理接口",
+      "v3.0.0": "适配 MoviePilot V3 SDK 与插件依赖清单"
+    },
+    "author_url": "https://github.com/SuCorine"
+  },
+  "P115StrmHelper": {
+    "name": "115网盘STRM助手",
+    "description": "115网盘STRM生成一条龙服务",
+    "labels": "云盘",
+    "version": "3.0.0",
+    "release": true,
+    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Frontend/refs/heads/v2/src/assets/images/misc/u115.png",
+    "author": "Corine",
+    "system_version": ">=3.0.0",
+    "level": 1,
+    "history": {
+      "v3.0.0": "迁移到 MoviePilot V3 SDK，数据库改用主程序提供的插件自管理数据库，存量数据自动迁移"
+    },
+    "author_url": "https://github.com/SuCorine"
+  }
+}
