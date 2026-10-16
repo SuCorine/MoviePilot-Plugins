@@ -31,36 +31,5 @@
     },
     "system_version": ">=3.0.0",
     "author_url": "https://github.com/SuCorine"
-  },
-  "P115Disk": {
-    "name": "115网盘储存",
-    "description": "更快更强的115网盘存储模块。",
-    "labels": "云盘",
-    "version": "3.0.1",
-    "release": true,
-    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Frontend/refs/heads/v2/src/assets/images/misc/u115.png",
-    "author": "Corine",
-    "system_version": ">=3.0.0",
-    "level": 1,
-    "history": {
-      "v3.0.1": "修复清理缓存响应并适配 V3 存储管理接口",
-      "v3.0.0": "适配 MoviePilot V3 SDK 与插件依赖清单"
-    },
-    "author_url": "https://github.com/SuCorine"
-  },
-  "P115StrmHelper": {
-    "name": "115网盘STRM助手",
-    "description": "115网盘STRM生成一条龙服务",
-    "labels": "云盘",
-    "version": "3.0.0",
-    "release": true,
-    "icon": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Frontend/refs/heads/v2/src/assets/images/misc/u115.png",
-    "author": "Corine",
-    "system_version": ">=3.0.0",
-    "level": 1,
-    "history": {
-      "v3.0.0": "迁移到 MoviePilot V3 SDK，数据库改用主程序提供的插件自管理数据库，存量数据自动迁移"
-    },
-    "author_url": "https://github.com/SuCorine"
   }
 }
